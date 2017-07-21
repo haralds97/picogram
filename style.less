@@ -1,4 +1,50 @@
+@import "./less/main.less";
+
+@color-background: red;
+@color-text: black;
+@font-size: 18px;
+@width: 70%;
+
 body {
-  background: red;
-  font-size: 58px;
+  background: @color-background;
+  color: @color-text;
+  font-size: @font-size;
+  width: @width;
+}
+
+
+          a:link,
+          a:visited,
+          a:hover {
+            color: black;
+          };
+          a:active
+
+
+
+
+.container {
+  margin: auto;
+  width: 70%;
+}
+
+.centered  {
+  margin: auto;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background: #000;
+  color: red;
+  width: 70%;
+}
+
+.footer  {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  width: 100%;
 }
